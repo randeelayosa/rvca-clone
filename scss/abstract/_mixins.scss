@@ -5,3 +5,10 @@
   color: rgb(161,164,171);
   size: $font-size;
 }
+
+@mixin buttons {
+  background-color: rgb(161,164,171);
+  color: white;
+  width: 163.13px;
+  height: 30.97px;
+}
