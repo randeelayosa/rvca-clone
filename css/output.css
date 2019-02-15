@@ -29,16 +29,14 @@
 
 .content {
   display: flex;
-  max-width: 860px;
   flex-direction: column;
   justify-content: center;
-  background-color: blue;
+  max-width: 860px;
   margin-top: 60px; }
 
 .slider-block {
   display: flex;
-  justify-content: center;
-  margin-bottom: 20px; }
+  margin-bottom: 30px; }
   .slider-block .slider-container {
     display: flex;
     max-width: 100%;
@@ -49,33 +47,48 @@
 
 .head-block {
   display: flex;
-  flex-direction: column;
-  justify-content: center; }
+  flex-direction: column; }
   .head-block .heading {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px; }
+    margin-bottom: 30px; }
   .head-block .holder {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px; }
+    margin-bottom: 30px; }
     .head-block .holder img {
       width: 277px; }
 
 .sale-block {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  margin-bottom: 20px; }
+  margin-bottom: 30px; }
   .sale-block .sale-holder {
     display: flex;
-    margin-bottom: 20px; }
+    margin-bottom: 30px; }
     .sale-block .sale-holder img {
       max-width: 859.99px;
       max-height: 599.99px; }
   .sale-block .copy {
-    margin: 20px 0; }
+    margin-top: 20px; }
     .sale-block .copy button {
+      margin-top: 20px;
+      background-color: #a1a4ab;
+      color: white;
+      width: 163.13px;
+      height: 30.97px; }
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  justify-content: center; }
+  .feature .video {
+    margin-bottom: 30px; }
+  .feature .article {
+    background-color: blue;
+    margin-top: 20px; }
+    .feature .article button {
       margin-top: 20px;
       background-color: #a1a4ab;
       color: white;

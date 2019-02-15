@@ -36,17 +36,15 @@
 
 .content{
   display: flex;
-  max-width: 860px;
   flex-direction: column;
   justify-content: center;
-  background-color: blue;
+  max-width: 860px;
   margin-top: 60px;
 }
 
 .slider-block{
   display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   .slider-container{
     display: flex;
     max-width: 100%;
@@ -61,16 +59,15 @@
 .head-block{
   display: flex;
   flex-direction: column;
-  justify-content: center;
   .heading{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: $bottom-margin;
   }
   .holder{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: $bottom-margin;
     img{
       width: (277px);
     }
@@ -78,20 +75,33 @@
 }
 
 .sale-block{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-bottom: 20px;
+  @include block-spacing;
   .sale-holder{
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: $bottom-margin;
     img{
       max-width: 859.99px;
       max-height: 599.99px;
     }
   }
   .copy{
-    margin: 20px 0;
+    margin-top: 20px;
+    button{
+      margin-top: 20px;
+      @include buttons;
+    }
+  }
+}
+
+.feature-block{
+  @include block-spacing;
+  justify-content: center;
+  .video{
+    margin-bottom: $bottom-margin;
+  }
+  .article{
+    background-color: blue;
+    margin-top: 20px;
     button{
       margin-top: 20px;
       @include buttons;
