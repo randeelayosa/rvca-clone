@@ -26,6 +26,9 @@
       color: white;
       align-self: center; }
 
+hr {
+  margin-bottom: 30px; }
+
 .content {
   display: flex;
   flex-direction: column;
@@ -56,7 +59,8 @@
     justify-content: space-between;
     margin-bottom: 30px; }
     .head-block .holder img {
-      width: 277px; }
+      width: 277px;
+      height: 160px; }
 
 .sale-block {
   display: flex;
@@ -108,6 +112,9 @@
         display: flex;
         justify-content: space-between;
         margin-bottom: 10px; }
+        .news-block .news-items .holder .row1 .item img, .news-block .news-items .holder .row2 .item img, .news-block .news-items .holder .row3 .item img, .news-block .news-items .holder .row4 .item img {
+          width: 204px;
+          height: 152px; }
 
 .product-wall {
   display: flex;
@@ -123,6 +130,9 @@
     .product-wall .product-holder .product1, .product-wall .product-holder .product2, .product-wall .product-holder .product3 {
       display: flex;
       flex-direction: column; }
+      .product-wall .product-holder .product1 img, .product-wall .product-holder .product2 img, .product-wall .product-holder .product3 img {
+        width: 260px;
+        height: 300px; }
 
 .footer {
   display: flex;
