@@ -4,7 +4,7 @@
 *{
   // border: 1px solid red;
   margin: 0;
-  @include font;
+  @include font(14px);
 }
 
 .content-wrapper{
@@ -13,15 +13,14 @@
 }
 
 .nav-bar{
-  background-color: white;
   margin-top: 0;
   position: fixed;
   top: 0;
-  border-bottom: 1px solid black;
   width: 100%;
+  background-color: white;
   .nav-top{
     background-color: black;
-    height: 25px;
+    height: 30px;
     width: 100%;
     display: flex;
     padding: 0 20px;
@@ -29,6 +28,58 @@
     h5{
       color: white;
       align-self: center;
+    }
+  }
+}
+
+.nav-area{
+  display: flex;
+  justify-content: space-around;
+  height: 121px;
+  .nav-bottom{
+    display: flex;
+    justify-content: center;
+    width: 860px;
+    .logo{
+      display: flex;
+      align-self: center;
+      img{
+        width: 147px;
+        height: 30px;
+      }
+    }
+    .nav-links{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      .help{
+        display: flex;
+        justify-content: space-around;
+        height: 50%;
+        padding-left: 20%;
+        align-items: center;
+        margin-top: 8px;
+        a{
+          margin: 0 5px;
+          text-decoration: none;
+        }
+        .search{
+          margin: 0 5px;
+          input{
+            @include input;
+          }
+        }
+      }
+      .tabs{
+        display: flex;
+        justify-content: flex-end;
+        height: 50%;
+        a{
+          margin: 0 4px;
+          padding: 0 4px;
+          text-decoration: none;
+        }
+      }
     }
   }
 }
@@ -199,12 +250,7 @@ hr{
         justify-content: space-between;
         width: 100%;
         input{
-          background-color: rgba(161,164,171,.5);
-          border: 0 solid transparent;
-          color: white;
-          width:90%;
-          margin-right: 3px;
-          padding-left: 5px;
+          @include input;
         }
         button{
           @include buttons;
