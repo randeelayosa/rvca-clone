@@ -2,7 +2,7 @@
 @import "abstract/_variables";
 
 *{
-  border: 1px solid red;
+  // border: 1px solid red;
   margin: 0;
   @include font;
 }
@@ -10,7 +10,6 @@
 .content-wrapper{
   display: flex;
   justify-content: center;
-  // background-color: yellow;
 }
 
 .nav-bar{
@@ -112,7 +111,6 @@
   margin-bottom: 30px;
   h2{
     text-align: center;
-    background-color: yellow;
     margin-bottom: 10px;
   }
   .news-items{
@@ -120,7 +118,6 @@
     margin-bottom: 30px;
     width: 100%;
     .holder{
-      background-color: blue;
       width: 100%;
       .row1, .row2, .row3, .row4{
         display: flex;
@@ -135,8 +132,7 @@
   @include block-spacing;
   h2{
     text-align: center;
-    background-color: yellow;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
   }
   .product-holder{
     display: flex;
@@ -145,6 +141,63 @@
     .product1, .product2, .product3{
       display: flex;
       flex-direction: column;
+    }
+  }
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
+  .footer-content{
+    display: flex;
+    justify-content: space-between;
+    width: 76%;
+    height: 86px;
+    padding-top: 20px;
+    .links{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 75%;
+      img{
+        width: 30px;
+      }
+      & a:nth-child(even){
+        border-left: 1px solid gray;
+        border-right: 1px solid gray;
+      }
+      a{
+        margin: 0 3px;
+        padding: 0 3px;
+        text-decoration: none;
+      }
+    }
+    .subscribe{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 40%;
+      label{
+        align-self: center;
+      }
+      .input{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        input{
+          background-color: rgba(161,164,171,.5);
+          border: 0 solid transparent;
+          color: white;
+          width:90%;
+          margin-right: 3px;
+          padding-left: 5px;
+        }
+        button{
+          @include buttons;
+          border: 0 solid transparent;
+        }
+      }
     }
   }
 }
