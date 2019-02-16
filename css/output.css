@@ -78,21 +78,54 @@
       width: 163.13px;
       height: 30.97px; }
 
-.feature {
+.feature-block {
   display: flex;
   flex-direction: column;
   margin-bottom: 30px;
   justify-content: center; }
-  .feature .video {
+  .feature-block .video {
     margin-bottom: 30px; }
-  .feature .article {
-    background-color: blue;
+  .feature-block .article {
     margin-top: 20px; }
-    .feature .article button {
+    .feature-block .article button {
       margin-top: 20px;
       background-color: #a1a4ab;
       color: white;
       width: 163.13px;
       height: 30.97px; }
+
+.news-block {
+  margin-bottom: 30px; }
+  .news-block h2 {
+    text-align: center;
+    background-color: yellow;
+    margin-bottom: 10px; }
+  .news-block .news-items {
+    display: flex;
+    margin-bottom: 30px;
+    width: 100%; }
+    .news-block .news-items .holder {
+      background-color: blue;
+      width: 100%; }
+      .news-block .news-items .holder .row1, .news-block .news-items .holder .row2, .news-block .news-items .holder .row3, .news-block .news-items .holder .row4 {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px; }
+
+.product-wall {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px; }
+  .product-wall h2 {
+    text-align: center;
+    background-color: yellow;
+    margin-bottom: 10px; }
+  .product-wall .product-holder {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px; }
+    .product-wall .product-holder .product1, .product-wall .product-holder .product2, .product-wall .product-holder .product3 {
+      display: flex;
+      flex-direction: column; }
 
 /*# sourceMappingURL=output.css.map */

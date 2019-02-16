@@ -18,3 +18,9 @@
   flex-direction: column;
   margin-bottom: 30px;
 }
+
+@mixin grid {
+  display: flex;
+  width: 204px;
+  height: 152px;
+}
