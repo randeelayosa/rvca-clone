@@ -12,6 +12,9 @@
   width: 163.13px;
   height: 30.97px;
   cursor: pointer;
+  &:hover{
+    background-color: black;
+  }
 }
 
 @mixin block-spacing {
@@ -41,6 +44,13 @@
   &:hover{
     opacity: 0.3;
     filter: alpha(opacity=30);
+    cursor: pointer;
+  }
+}
+
+@mixin link-hover {
+  &:hover{
+    color: black;
     cursor: pointer;
   }
 }
