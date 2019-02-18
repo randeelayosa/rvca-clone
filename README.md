@@ -9,11 +9,13 @@
 _A recreation of the RVCA.com home page using CSS and Sass._
 
 ## Specs
+
 <p align="center">Original Version | Cloned Version</p>
 <p align="center">
   <img src="img/rvca-original.png" width="350" height="237" title="original site">
   <img src="img/rvca-clone.png" width="350" height="237" alt="my cloned version">
 </p>
+
 * _Program uses flex boxes to achieve an identical look to the original website._
 * _Program is responsive and adjusts to various viewport sizes with media queries._
 
