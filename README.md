@@ -11,8 +11,8 @@ _A recreation of the RVCA.com home page using CSS and Sass._
 ## Specs
 <p align="center">Original Version | Cloned Version</p>
 <p align="center">
-  <img src="img/rvca-original.png" width="350" title="original site">
-  <img src="img/rvca-clone.png" width="350" alt="my cloned version">
+  <img src="img/rvca-original.png" width="350" height="237" title="original site">
+  <img src="img/rvca-clone.png" width="350" height="237" alt="my cloned version">
 </p>
 * _Program uses flex boxes to achieve an identical look to the original website._
 * _Program is responsive and adjusts to various viewport sizes with media queries._
@@ -20,7 +20,8 @@ _A recreation of the RVCA.com home page using CSS and Sass._
 ## Setup/Installation Requirements
 
 * _Go to this link to view the page on GitHub "https://github.com/randeelayosa/rvca-clone.git"_
-* _Open the repository in the text editor of your preference. (i.e. Atom.)_
+* _Copy the repository link and clone it to your desktop. (i.e. For Macs do this through your terminal.)_
+* _Open the project folder contents in the text editor of your preference. (i.e. Atom.)_
 * _Open the index.html file in the web browser of your preference._
 
 ## Known Bugs
